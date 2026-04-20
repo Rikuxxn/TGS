@@ -1,0 +1,101 @@
+//=============================================================================
+//
+// タイム処理 [Time.h]
+// Author : RIKU TANEKAWA
+//
+//=============================================================================
+#ifndef _TIME_H_// このマクロ定義がされていなかったら
+#define _TIME_H_// 2重インクルード防止のマクロ定義
+
+//*****************************************************************************
+// インクルードファイル
+//*****************************************************************************
+#include "Object.h"
+#include "Number.h"
+
+
+//*****************************************************************************
+// 前方宣言
+//*****************************************************************************
+class CColon;
+
+//*****************************************************************************
+// タイムクラス
+//*****************************************************************************
+class CTime : public CObject
+{
+public:
+	CTime(int nPriority = PRIORITY::UI);
+	~CTime();
+
+	static constexpr float	NIGHT_START_RATE	= 0.30f;	// 夜開始割合
+	static constexpr float	NIGHT_END_RATE		= 0.90f;	// 夜終了割合
+
+	static CTime* Create(int minutes, int seconds, float baseX, float baseY, float digitWidth, float digitHeight, bool visibleFlag);
+	HRESULT Init(void);
+	void Uninit(void);
+	void Update(void);
+	void Countup(void);
+	void Countdown(void);
+	void Draw(void);
+
+	bool IsTimeUp(void) { return m_isTimeUp; }
+	bool IsNight(void) const;
+
+	void SetActiveFlag(bool flag) { m_isActive = flag; }
+	void SetVisibleFlag(bool flag) { m_isVisible = flag; }
+
+	float GetProgress(void) const;
+	int GetMinutes(void) { return m_nMinutes; }
+	int GetnSeconds(void) { return m_nSeconds; }
+
+private:
+	static constexpr int	DIGITS				= 4;		// 桁数(分2,秒2)
+	static constexpr int	TENS_PLACE			= 10;		// 10の位
+	static constexpr int	TIME_RATE			= 60;		// 時間率
+	static constexpr int	TIME_CHANGE_RATE	= 59;		// 値が変わる時間
+
+	CNumber*	m_apNumber[DIGITS];			// ナンバーへのポインタ
+	CColon*		m_pColon;					// コロンへのポインタ
+	D3DXVECTOR3 m_basePos;					// 表示の開始位置
+	int			m_nMinutes;					// 分
+	int			m_nSeconds;					// 秒
+	int			m_nFrameCount;				// フレームカウント
+	int			m_nIdxTexture;				// テクスチャインデックス
+	int			m_nStartMinutes;			// 開始時の分
+	int			m_nStartSeconds;			// 開始時の秒
+	float		m_digitWidth;				// 数字1桁あたりの幅
+	float		m_digitHeight;				// 数字1桁あたりの高さ
+	bool		m_isActive;					// アクティブフラグ
+	bool		m_isTimeUp;					// タイムアップフラグ
+	bool		m_isVisible;				// 表示フラグ
+};
+
+//*****************************************************************************
+// コロンクラス
+//*****************************************************************************
+class CColon : public CObject
+{
+public:
+	CColon(int nPriority = PRIORITY::UI);
+	~CColon();
+
+	static CColon* Create(D3DXVECTOR3 pos, float fWidth, float fHeight, bool visibleFlag);
+	HRESULT Init(void);
+	void Uninit(void);
+	void Update(void);
+	void Draw(void);
+
+	void SetVisible(bool flag) { m_isVisible = flag; }
+
+private:
+	LPDIRECT3DVERTEXBUFFER9 m_pVtxBuff;		// 頂点バッファ
+	D3DXVECTOR3				m_pos;			// 位置
+	int						m_nIdxTexture;	// テクスチャインデックス
+	float					m_fWidth;		// 幅
+	float					m_fHeight;		// 高さ
+	bool					m_isVisible;	// 表示フラグ
+
+};
+
+#endif

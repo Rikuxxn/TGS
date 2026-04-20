@@ -1,0 +1,38 @@
+﻿  Building Custom Rule C:/Users/student/Desktop/bullet3/src/LinearMath/CMakeLists.txt
+  CMake is re-running because C:/Users/student/Desktop/bullet3/build_x86/src/LinearMath/CMakeFiles/generate.stamp is out-of-date.
+    the file 'C:/Users/student/Desktop/bullet3/src/LinearMath/CMakeLists.txt'
+    is newer than 'C:/Users/student/Desktop/bullet3/build_x86/src/LinearMath/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+    Compatibility with CMake < 3.10 will be removed from a future version of
+    CMake.
+  
+    Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+    to tell CMake that the project requires at least <min> but has been updated
+    to work with policies introduced by <max> or earlier.
+  
+  
+  -- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.26200.
+  CMAKE_EXE_LINKER_FLAGS_DEBUG=/INCREMENTAL:NO /debug /INCREMENTAL
+  OPENGL FOUND
+  opengl32glu32
+  CMake Error at CMakeLists.txt:442 (SUBDIRS):
+    SUBDIRS Incorrect SUBDIRS command.  Directory: Extras does not exist.
+  
+  
+  CMake Error at CMakeLists.txt:489 (SUBDIRS):
+    SUBDIRS Incorrect SUBDIRS command.  Directory: test does not exist.
+  
+  
+  CMake Error at src/CMakeLists.txt:3 (SUBDIRS):
+    SUBDIRS Incorrect SUBDIRS command.  Directory: Bullet3Geometry does not
+    exist.
+  
+  
+  CMake Error at src/CMakeLists.txt:7 (SUBDIRS):
+    SUBDIRS Incorrect SUBDIRS command.  Directory: Bullet3Common does not
+    exist.
+  
+  
+  -- Configuring incomplete, errors occurred!
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(241,5): error MSB8066: 'C:\Users\student\Desktop\bullet3\src\LinearMath\CMakeLists.txt' のカスタム ビルドがコード 1 で終了しました。

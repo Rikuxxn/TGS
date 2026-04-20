@@ -1,0 +1,7 @@
+﻿  Character.cpp
+C:\Users\student\Desktop\TGS\TGS\src\cpp\Character.cpp(132,65): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\cpp\Character.cpp(132,53): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\cpp\Character.cpp(132,41): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+  Player.cpp
+  コードを生成中...
+  TGS_GAME.vcxproj -> C:\Users\student\Desktop\TGS\TGS\x64\Debug\TGS_GAME.exe
