@@ -14,22 +14,6 @@
 #include "Easing.h"
 #include "MathConst.h"
 
-namespace RankRange
-{
-    constexpr int   S_NUM       = 8;
-    constexpr int   A_NUM_MIN   = 5;
-    constexpr int   A_NUM_MAX   = 7;
-    constexpr int   B_NUM_MIN   = 3;
-    constexpr int   B_NUM_MAX   = 4;
-    constexpr float A_RATE_MIN  = 0.8f;
-    constexpr float A_RATE_MAX  = 0.9f;
-    constexpr float B_RATE_MIN  = 0.6f;
-    constexpr float B_RATE_MAX  = 0.8f;
-    constexpr float C_RATE_MIN  = 0.6f;
-    constexpr float C_RATE_MAX  = 0.8f;
-    constexpr float DEC_RATE    = 0.01f;// 低下割合(1%)
-}
-
 //=============================================================================
 // UIマネージャーのインスタンス生成
 //=============================================================================
@@ -490,9 +474,6 @@ void CUITexture::Uninit(void)
 //=============================================================================
 void CUITexture::Update(void)
 {
-    // 名前空間RankRangeの使用
-    using namespace RankRange;
-
     // UIベースの更新
     CUIBase::Update();
 

@@ -1,7 +1,158 @@
-﻿  Character.cpp
-C:\Users\student\Desktop\TGS\TGS\src\cpp\Character.cpp(132,65): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
-C:\Users\student\Desktop\TGS\TGS\src\cpp\Character.cpp(132,53): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
-C:\Users\student\Desktop\TGS\TGS\src\cpp\Character.cpp(132,41): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+﻿  pch.cpp
+C:\Users\student\Desktop\TGS\TGS\bullet\src\LinearMath\btSerializer.h(464,1): warning C4127: 条件式が定数です。
+C:\Users\student\Desktop\TGS\TGS\bullet\src\LinearMath\btSerializer.h(464,1): message : 代わりに 'if constexpr' ステートメントの使用を検討してください
+C:\Users\student\Desktop\TGS\TGS\bullet\src\BulletDynamics\ConstraintSolver\btConeTwistConstraint.h(216,1): warning C4127: 条件式が定数です。
+C:\Users\student\Desktop\TGS\TGS\bullet\src\BulletDynamics\ConstraintSolver\btConeTwistConstraint.h(216,1): message : 代わりに 'if constexpr' ステートメントの使用を検討してください
+  Block.cpp
+C:\Users\student\Desktop\TGS\TGS\src\Block.cpp(180,45): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\Block.cpp(180,36): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\Block.cpp(180,27): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\Block.cpp(187,53): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\Block.cpp(187,44): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\Block.cpp(187,35): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\Block.cpp(187,26): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+  BlockList.cpp
+  BlockManager.cpp
+C:\Users\student\Desktop\TGS\TGS\src\BlockManager.cpp(844,20): warning C4267: '=': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+  Camera.cpp
+C:\Users\student\Desktop\TGS\TGS\src\Camera.cpp(377,63): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\Camera.cpp(377,49): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\Camera.cpp(377,35): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\Camera.cpp(387,63): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\Camera.cpp(387,49): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\Camera.cpp(387,35): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+  Character.cpp
+C:\Users\student\Desktop\TGS\TGS\src\Character.cpp(132,65): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\Character.cpp(132,53): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\Character.cpp(132,41): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+  CharacterManager.cpp
+  DebugProc.cpp
+  DebugProc3D.cpp
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(104,18): warning C4244: '初期化中': 'btScalar' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(105,22): warning C4244: '初期化中': 'btScalar' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(114,47): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(114,40): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(114,33): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(114,26): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(119,64): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(119,54): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(119,44): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(148,84): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(148,63): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(148,42): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(147,82): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(147,64): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(147,46): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(191,93): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(191,85): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(191,77): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(191,56): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(191,48): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(191,40): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(192,93): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(192,85): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(192,77): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(192,56): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(192,48): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(192,40): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(193,93): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(193,85): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(193,77): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(193,56): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(193,48): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(193,40): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(194,93): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(194,85): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(194,77): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(194,56): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(194,48): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(194,40): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(235,93): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(235,85): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(235,77): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(235,56): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(235,48): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(235,40): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(236,93): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(236,85): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(236,77): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(236,56): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(236,48): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(236,40): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(237,93): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(237,85): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(237,77): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(237,56): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(237,48): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(237,40): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(238,93): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(238,85): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(238,77): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(238,56): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(238,48): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(238,40): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(261,55): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(261,46): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(261,37): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(261,28): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(266,61): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(266,52): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(266,43): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(314,22): warning C4244: '初期化中': 'btScalar' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(359,84): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(359,70): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(359,56): warning C4244: '引数': 'const btScalar' から 'FLOAT' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\TGS\TGS\src\DebugProc3D.cpp(403,30): warning C4244: '初期化中': 'btScalar' から 'float' への変換です。データが失われる可能性があります。
+  Fade.cpp
+  FileDialogUtils.cpp
+  Game.cpp
+  Guage.cpp
+  GuiInfo.cpp
+  Input.cpp
+C:\Users\student\Desktop\TGS\TGS\src\Input.cpp(451,35): warning C4267: '初期化中': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+  Item.cpp
+  ItemSelect.cpp
+  Light.cpp
+  Main.cpp
+  Manager.cpp
+  Model.cpp
+  コードを生成中...
+  コンパイル中...
+  Motion.cpp
+  Number.cpp
+  Object.cpp
+  Object2D.cpp
+  Object3D.cpp
+  ObjectBillboard.cpp
+  ObjectX.cpp
+  Pause.cpp
+  PauseManager.cpp
   Player.cpp
+  PlayerState.cpp
+  RayCast.cpp
+  Renderer.cpp
+  Result.cpp
+  Scene.cpp
+  SkyCube.cpp
+  Sound.cpp
+  SpecPlayer.cpp
+C:\Users\student\Desktop\TGS\TGS\src\SpecPlayer.cpp(46,50): warning C4100: 'player': 引数は関数の本体部で 1 度も参照されません。
+  StencilShadow.cpp
+  Texture.cpp
+  コードを生成中...
+  コンパイル中...
+  Timer.cpp
+  Title.cpp
+  Tutorial.cpp
+  Ui.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx9.cpp
+  imgui_impl_win32.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  imguimaneger.cpp
+C:\Users\student\Desktop\TGS\TGS\src\imguimaneger.cpp(63,10): warning C4189: 'myFont': ローカル変数が初期化されましたが、参照されていません
   コードを生成中...
   TGS_GAME.vcxproj -> C:\Users\student\Desktop\TGS\TGS\x64\Debug\TGS_GAME.exe

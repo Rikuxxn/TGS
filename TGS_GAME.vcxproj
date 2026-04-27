@@ -97,7 +97,7 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>$(SolutionDir)bullet\src;$(SolutionDir)src\cpp;$(SolutionDir)src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)bullet\src;$(SolutionDir)src;$(SolutionDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
@@ -119,7 +119,7 @@
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>$(SolutionDir)bullet\src;$(SolutionDir)src\cpp;$(SolutionDir)src\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)bullet\src;$(SolutionDir)src;$(SolutionDir)include;</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
@@ -140,7 +140,7 @@
 ;BT_USE_DOUBLE_PRECISION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>$(SolutionDir)bullet\src;$(SolutionDir)src\cpp;$(SolutionDir)src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)bullet\src;$(SolutionDir)src;$(SolutionDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
@@ -163,7 +163,7 @@
 ;BT_USE_DOUBLE_PRECISION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>$(SolutionDir)bullet\src;$(SolutionDir)src\cpp;$(SolutionDir)src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)bullet\src;$(SolutionDir)src;$(SolutionDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
@@ -179,128 +179,64 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="src\cpp\json.hpp" />
-    <ClInclude Include="src\include\Block.h" />
-    <ClInclude Include="src\include\BlockList.h" />
-    <ClInclude Include="src\include\BlockManager.h" />
-    <ClInclude Include="src\include\Camera.h" />
-    <ClInclude Include="src\include\Character.h" />
-    <ClInclude Include="src\include\CharacterManager.h" />
-    <ClInclude Include="src\include\DebugProc.h" />
-    <ClInclude Include="src\include\DebugProc3D.h" />
-    <ClInclude Include="src\include\Easing.h" />
-    <ClInclude Include="src\include\Fade.h" />
-    <ClInclude Include="src\include\FileDialogUtils.h" />
-    <ClInclude Include="src\include\Game.h" />
-    <ClInclude Include="src\include\Guage.h" />
-    <ClInclude Include="src\include\GuiInfo.h" />
-    <ClInclude Include="src\include\imconfig.h" />
-    <ClInclude Include="src\include\imgui.h" />
-    <ClInclude Include="src\include\imguimaneger.h" />
-    <ClInclude Include="src\include\imgui_impl_dx9.h" />
-    <ClInclude Include="src\include\imgui_impl_win32.h" />
-    <ClInclude Include="src\include\imgui_internal.h" />
-    <ClInclude Include="src\include\imstb_rectpack.h" />
-    <ClInclude Include="src\include\imstb_textedit.h" />
-    <ClInclude Include="src\include\imstb_truetype.h" />
-    <ClInclude Include="src\include\Input.h" />
-    <ClInclude Include="src\include\Item.h" />
-    <ClInclude Include="src\include\ItemSelect.h" />
-    <ClInclude Include="src\include\Light.h" />
-    <ClInclude Include="src\include\Main.h" />
-    <ClInclude Include="src\include\Manager.h" />
-    <ClInclude Include="src\include\MathConst.h" />
-    <ClInclude Include="src\include\Model.h" />
-    <ClInclude Include="src\include\Motion.h" />
-    <ClInclude Include="src\include\Number.h" />
-    <ClInclude Include="src\include\Object.h" />
-    <ClInclude Include="src\include\Object2D.h" />
-    <ClInclude Include="src\include\Object3D.h" />
-    <ClInclude Include="src\include\ObjectBillboard.h" />
-    <ClInclude Include="src\include\ObjectX.h" />
-    <ClInclude Include="src\include\Parameter.h" />
-    <ClInclude Include="src\include\Pause.h" />
-    <ClInclude Include="src\include\PauseManager.h" />
-    <ClInclude Include="src\include\pch.h" />
-    <ClInclude Include="src\include\Player.h" />
-    <ClInclude Include="src\include\PlayerState.h" />
-    <ClInclude Include="src\include\RayCast.h" />
-    <ClInclude Include="src\include\Renderer.h" />
-    <ClInclude Include="src\include\Result.h" />
-    <ClInclude Include="src\include\Scene.h" />
-    <ClInclude Include="src\include\SkyCube.h" />
-    <ClInclude Include="src\include\Sound.h" />
-    <ClInclude Include="src\include\SpecBase.h" />
-    <ClInclude Include="src\include\SpecPlayer.h" />
-    <ClInclude Include="src\include\State.h" />
-    <ClInclude Include="src\include\StencilShadow.h" />
-    <ClInclude Include="src\include\Texture.h" />
-    <ClInclude Include="src\include\Timer.h" />
-    <ClInclude Include="src\include\Title.h" />
-    <ClInclude Include="src\include\Tutorial.h" />
-    <ClInclude Include="src\include\Ui.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="src\cpp\Block.cpp" />
-    <ClCompile Include="src\cpp\BlockList.cpp" />
-    <ClCompile Include="src\cpp\BlockManager.cpp" />
-    <ClCompile Include="src\cpp\Camera.cpp" />
-    <ClCompile Include="src\cpp\Character.cpp" />
-    <ClCompile Include="src\cpp\CharacterManager.cpp" />
-    <ClCompile Include="src\cpp\DebugProc.cpp" />
-    <ClCompile Include="src\cpp\DebugProc3D.cpp" />
-    <ClCompile Include="src\cpp\Fade.cpp" />
-    <ClCompile Include="src\cpp\FileDialogUtils.cpp" />
-    <ClCompile Include="src\cpp\Game.cpp" />
-    <ClCompile Include="src\cpp\Guage.cpp" />
-    <ClCompile Include="src\cpp\GuiInfo.cpp" />
-    <ClCompile Include="src\cpp\imgui.cpp" />
-    <ClCompile Include="src\cpp\imguimaneger.cpp" />
-    <ClCompile Include="src\cpp\imgui_demo.cpp" />
-    <ClCompile Include="src\cpp\imgui_draw.cpp" />
-    <ClCompile Include="src\cpp\imgui_impl_dx9.cpp" />
-    <ClCompile Include="src\cpp\imgui_impl_win32.cpp" />
-    <ClCompile Include="src\cpp\imgui_tables.cpp" />
-    <ClCompile Include="src\cpp\imgui_widgets.cpp" />
-    <ClCompile Include="src\cpp\Input.cpp" />
-    <ClCompile Include="src\cpp\Item.cpp" />
-    <ClCompile Include="src\cpp\ItemSelect.cpp" />
-    <ClCompile Include="src\cpp\Light.cpp" />
-    <ClCompile Include="src\cpp\Main.cpp" />
-    <ClCompile Include="src\cpp\Manager.cpp" />
-    <ClCompile Include="src\cpp\Model.cpp" />
-    <ClCompile Include="src\cpp\Motion.cpp" />
-    <ClCompile Include="src\cpp\Number.cpp" />
-    <ClCompile Include="src\cpp\Object.cpp" />
-    <ClCompile Include="src\cpp\Object2D.cpp" />
-    <ClCompile Include="src\cpp\Object3D.cpp" />
-    <ClCompile Include="src\cpp\ObjectBillboard.cpp" />
-    <ClCompile Include="src\cpp\ObjectX.cpp" />
-    <ClCompile Include="src\cpp\Pause.cpp" />
-    <ClCompile Include="src\cpp\PauseManager.cpp" />
-    <ClCompile Include="src\cpp\pch.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">pch.h</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">pch.h</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    <ClCompile Include="src\Block.cpp" />
+    <ClCompile Include="src\BlockList.cpp" />
+    <ClCompile Include="src\BlockManager.cpp" />
+    <ClCompile Include="src\Camera.cpp" />
+    <ClCompile Include="src\Character.cpp" />
+    <ClCompile Include="src\CharacterManager.cpp" />
+    <ClCompile Include="src\DebugProc.cpp" />
+    <ClCompile Include="src\DebugProc3D.cpp" />
+    <ClCompile Include="src\Fade.cpp" />
+    <ClCompile Include="src\FileDialogUtils.cpp" />
+    <ClCompile Include="src\Game.cpp" />
+    <ClCompile Include="src\Guage.cpp" />
+    <ClCompile Include="src\GuiInfo.cpp" />
+    <ClCompile Include="src\imgui.cpp" />
+    <ClCompile Include="src\imguimaneger.cpp" />
+    <ClCompile Include="src\imgui_demo.cpp" />
+    <ClCompile Include="src\imgui_draw.cpp" />
+    <ClCompile Include="src\imgui_impl_dx9.cpp" />
+    <ClCompile Include="src\imgui_impl_win32.cpp" />
+    <ClCompile Include="src\imgui_tables.cpp" />
+    <ClCompile Include="src\imgui_widgets.cpp" />
+    <ClCompile Include="src\Input.cpp" />
+    <ClCompile Include="src\Item.cpp" />
+    <ClCompile Include="src\ItemSelect.cpp" />
+    <ClCompile Include="src\Light.cpp" />
+    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\Manager.cpp" />
+    <ClCompile Include="src\Model.cpp" />
+    <ClCompile Include="src\Motion.cpp" />
+    <ClCompile Include="src\Number.cpp" />
+    <ClCompile Include="src\Object.cpp" />
+    <ClCompile Include="src\Object2D.cpp" />
+    <ClCompile Include="src\Object3D.cpp" />
+    <ClCompile Include="src\ObjectBillboard.cpp" />
+    <ClCompile Include="src\ObjectX.cpp" />
+    <ClCompile Include="src\Pause.cpp" />
+    <ClCompile Include="src\PauseManager.cpp" />
+    <ClCompile Include="src\pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="src\cpp\Player.cpp" />
-    <ClCompile Include="src\cpp\PlayerState.cpp" />
-    <ClCompile Include="src\cpp\RayCast.cpp" />
-    <ClCompile Include="src\cpp\Renderer.cpp" />
-    <ClCompile Include="src\cpp\Result.cpp" />
-    <ClCompile Include="src\cpp\Scene.cpp" />
-    <ClCompile Include="src\cpp\SkyCube.cpp" />
-    <ClCompile Include="src\cpp\Sound.cpp" />
-    <ClCompile Include="src\cpp\SpecPlayer.cpp" />
-    <ClCompile Include="src\cpp\StencilShadow.cpp" />
-    <ClCompile Include="src\cpp\Texture.cpp" />
-    <ClCompile Include="src\cpp\Timer.cpp" />
-    <ClCompile Include="src\cpp\Title.cpp" />
-    <ClCompile Include="src\cpp\Tutorial.cpp" />
-    <ClCompile Include="src\cpp\Ui.cpp" />
+    <ClCompile Include="src\Player.cpp" />
+    <ClCompile Include="src\PlayerState.cpp" />
+    <ClCompile Include="src\RayCast.cpp" />
+    <ClCompile Include="src\Renderer.cpp" />
+    <ClCompile Include="src\Result.cpp" />
+    <ClCompile Include="src\Scene.cpp" />
+    <ClCompile Include="src\SkyCube.cpp" />
+    <ClCompile Include="src\Sound.cpp" />
+    <ClCompile Include="src\SpecPlayer.cpp" />
+    <ClCompile Include="src\StencilShadow.cpp" />
+    <ClCompile Include="src\Texture.cpp" />
+    <ClCompile Include="src\Timer.cpp" />
+    <ClCompile Include="src\Title.cpp" />
+    <ClCompile Include="src\Tutorial.cpp" />
+    <ClCompile Include="src\Ui.cpp" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="data\Shader\OutlinePS.hlsl">
@@ -359,6 +295,69 @@
       <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
       <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">3.0</ShaderModel>
     </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Block.h" />
+    <ClInclude Include="include\BlockList.h" />
+    <ClInclude Include="include\BlockManager.h" />
+    <ClInclude Include="include\Camera.h" />
+    <ClInclude Include="include\Character.h" />
+    <ClInclude Include="include\CharacterManager.h" />
+    <ClInclude Include="include\DebugProc.h" />
+    <ClInclude Include="include\DebugProc3D.h" />
+    <ClInclude Include="include\Easing.h" />
+    <ClInclude Include="include\Fade.h" />
+    <ClInclude Include="include\FileDialogUtils.h" />
+    <ClInclude Include="include\Game.h" />
+    <ClInclude Include="include\Guage.h" />
+    <ClInclude Include="include\GuiInfo.h" />
+    <ClInclude Include="include\imconfig.h" />
+    <ClInclude Include="include\imgui.h" />
+    <ClInclude Include="include\imguimaneger.h" />
+    <ClInclude Include="include\imgui_impl_dx9.h" />
+    <ClInclude Include="include\imgui_impl_win32.h" />
+    <ClInclude Include="include\imgui_internal.h" />
+    <ClInclude Include="include\imstb_rectpack.h" />
+    <ClInclude Include="include\imstb_textedit.h" />
+    <ClInclude Include="include\imstb_truetype.h" />
+    <ClInclude Include="include\Input.h" />
+    <ClInclude Include="include\Item.h" />
+    <ClInclude Include="include\ItemSelect.h" />
+    <ClInclude Include="include\Light.h" />
+    <ClInclude Include="include\Main.h" />
+    <ClInclude Include="include\Manager.h" />
+    <ClInclude Include="include\MathConst.h" />
+    <ClInclude Include="include\Model.h" />
+    <ClInclude Include="include\Motion.h" />
+    <ClInclude Include="include\Number.h" />
+    <ClInclude Include="include\Object.h" />
+    <ClInclude Include="include\Object2D.h" />
+    <ClInclude Include="include\Object3D.h" />
+    <ClInclude Include="include\ObjectBillboard.h" />
+    <ClInclude Include="include\ObjectX.h" />
+    <ClInclude Include="include\Parameter.h" />
+    <ClInclude Include="include\Pause.h" />
+    <ClInclude Include="include\PauseManager.h" />
+    <ClInclude Include="include\pch.h" />
+    <ClInclude Include="include\Player.h" />
+    <ClInclude Include="include\PlayerState.h" />
+    <ClInclude Include="include\RayCast.h" />
+    <ClInclude Include="include\Renderer.h" />
+    <ClInclude Include="include\Result.h" />
+    <ClInclude Include="include\Scene.h" />
+    <ClInclude Include="include\SkyCube.h" />
+    <ClInclude Include="include\Sound.h" />
+    <ClInclude Include="include\SpecBase.h" />
+    <ClInclude Include="include\SpecPlayer.h" />
+    <ClInclude Include="include\State.h" />
+    <ClInclude Include="include\StencilShadow.h" />
+    <ClInclude Include="include\Texture.h" />
+    <ClInclude Include="include\Timer.h" />
+    <ClInclude Include="include\Title.h" />
+    <ClInclude Include="include\Tutorial.h" />
+    <ClInclude Include="include\Ui.h" />
+    <ClInclude Include="src\json.hpp" />
+    <ClInclude Include="src\Number.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

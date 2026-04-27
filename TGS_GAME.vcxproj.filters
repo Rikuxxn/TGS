@@ -52,348 +52,172 @@
     <Filter Include="ヘッダー ファイル\Systems">
       <UniqueIdentifier>{986f2c5c-3456-46fc-843a-f1e1897c8f77}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\State">
+      <UniqueIdentifier>{281c8312-be5b-42e4-af7a-ee36ec338a35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\State">
+      <UniqueIdentifier>{388320e4-7df4-45aa-aae4-93dcbd7eb606}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\include\Easing.h">
-      <Filter>ヘッダー ファイル\Easing</Filter>
-    </ClInclude>
-    <ClInclude Include="src\cpp\json.hpp">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\Fade.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\Model.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\Motion.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\Number.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\Pause.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\PauseManager.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\Player.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\PlayerState.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\SkyCube.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\SpecBase.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\SpecPlayer.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\State.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\StencilShadow.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\Texture.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\Timer.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\Ui.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\Block.h">
-      <Filter>ヘッダー ファイル\Block</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\BlockList.h">
-      <Filter>ヘッダー ファイル\Block</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\BlockManager.h">
-      <Filter>ヘッダー ファイル\Block</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\Character.h">
-      <Filter>ヘッダー ファイル\Character</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\CharacterManager.h">
-      <Filter>ヘッダー ファイル\Character</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\Game.h">
-      <Filter>ヘッダー ファイル\Scenes</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\Tutorial.h">
-      <Filter>ヘッダー ファイル\Scenes</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\Title.h">
-      <Filter>ヘッダー ファイル\Scenes</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\Result.h">
-      <Filter>ヘッダー ファイル\Scenes</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\Scene.h">
-      <Filter>ヘッダー ファイル\Scenes</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\imconfig.h">
-      <Filter>ヘッダー ファイル\ImGui</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\imgui.h">
-      <Filter>ヘッダー ファイル\ImGui</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\imgui_impl_dx9.h">
-      <Filter>ヘッダー ファイル\ImGui</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\imgui_impl_win32.h">
-      <Filter>ヘッダー ファイル\ImGui</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\imgui_internal.h">
-      <Filter>ヘッダー ファイル\ImGui</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\imguimaneger.h">
-      <Filter>ヘッダー ファイル\ImGui</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\imstb_rectpack.h">
-      <Filter>ヘッダー ファイル\ImGui</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\imstb_textedit.h">
-      <Filter>ヘッダー ファイル\ImGui</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\imstb_truetype.h">
-      <Filter>ヘッダー ファイル\ImGui</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\Object.h">
-      <Filter>ヘッダー ファイル\Objects</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\Object2D.h">
-      <Filter>ヘッダー ファイル\Objects</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\Object3D.h">
-      <Filter>ヘッダー ファイル\Objects</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\ObjectBillboard.h">
-      <Filter>ヘッダー ファイル\Objects</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\ObjectX.h">
-      <Filter>ヘッダー ファイル\Objects</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\Camera.h">
-      <Filter>ヘッダー ファイル\Systems</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\DebugProc.h">
-      <Filter>ヘッダー ファイル\Systems</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\DebugProc3D.h">
-      <Filter>ヘッダー ファイル\Systems</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\Input.h">
-      <Filter>ヘッダー ファイル\Systems</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\Light.h">
-      <Filter>ヘッダー ファイル\Systems</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\Sound.h">
-      <Filter>ヘッダー ファイル\Systems</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\Manager.h">
-      <Filter>ヘッダー ファイル\Systems</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\Main.h">
-      <Filter>ヘッダー ファイル\Systems</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\Renderer.h">
-      <Filter>ヘッダー ファイル\Systems</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\pch.h">
-      <Filter>ヘッダー ファイル\Systems</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\Parameter.h">
-      <Filter>ヘッダー ファイル\Systems</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\MathConst.h">
-      <Filter>ヘッダー ファイル\Systems</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\FileDialogUtils.h">
-      <Filter>ヘッダー ファイル\Systems</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\RayCast.h">
-      <Filter>ヘッダー ファイル\Systems</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\ItemSelect.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\Guage.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\GuiInfo.h">
-      <Filter>ヘッダー ファイル\Systems</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\Item.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="src\cpp\Fade.cpp">
+    <ClCompile Include="src\DebugProc.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\ItemSelect.cpp">
+    <ClCompile Include="src\DebugProc3D.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\Light.cpp">
+    <ClCompile Include="src\Guage.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\Model.cpp">
+    <ClCompile Include="src\GuiInfo.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\Motion.cpp">
+    <ClCompile Include="src\Input.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\Pause.cpp">
+    <ClCompile Include="src\Item.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\PauseManager.cpp">
+    <ClCompile Include="src\ItemSelect.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\Player.cpp">
+    <ClCompile Include="src\Model.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\PlayerState.cpp">
+    <ClCompile Include="src\Motion.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\SkyCube.cpp">
+    <ClCompile Include="src\Number.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\SpecPlayer.cpp">
+    <ClCompile Include="src\Pause.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\StencilShadow.cpp">
+    <ClCompile Include="src\PauseManager.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\Texture.cpp">
+    <ClCompile Include="src\RayCast.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\Timer.cpp">
+    <ClCompile Include="src\SkyCube.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\Ui.cpp">
+    <ClCompile Include="src\SpecPlayer.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\Block.cpp">
+    <ClCompile Include="src\StencilShadow.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Texture.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Timer.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ui.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Block.cpp">
       <Filter>ソース ファイル\Block</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\BlockList.cpp">
+    <ClCompile Include="src\BlockList.cpp">
       <Filter>ソース ファイル\Block</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\BlockManager.cpp">
+    <ClCompile Include="src\BlockManager.cpp">
       <Filter>ソース ファイル\Block</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\Character.cpp">
+    <ClCompile Include="src\Character.cpp">
       <Filter>ソース ファイル\Character</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\CharacterManager.cpp">
+    <ClCompile Include="src\CharacterManager.cpp">
       <Filter>ソース ファイル\Character</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\imgui.cpp">
+    <ClCompile Include="src\imgui.cpp">
       <Filter>ソース ファイル\ImGui</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\imgui_demo.cpp">
+    <ClCompile Include="src\imgui_demo.cpp">
       <Filter>ソース ファイル\ImGui</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\imgui_draw.cpp">
+    <ClCompile Include="src\imgui_draw.cpp">
       <Filter>ソース ファイル\ImGui</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\imgui_impl_dx9.cpp">
+    <ClCompile Include="src\imgui_impl_dx9.cpp">
       <Filter>ソース ファイル\ImGui</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\imgui_impl_win32.cpp">
+    <ClCompile Include="src\imgui_impl_win32.cpp">
       <Filter>ソース ファイル\ImGui</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\imgui_tables.cpp">
+    <ClCompile Include="src\imgui_tables.cpp">
       <Filter>ソース ファイル\ImGui</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\imgui_widgets.cpp">
+    <ClCompile Include="src\imgui_widgets.cpp">
       <Filter>ソース ファイル\ImGui</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\imguimaneger.cpp">
+    <ClCompile Include="src\imguimaneger.cpp">
       <Filter>ソース ファイル\ImGui</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\Game.cpp">
-      <Filter>ソース ファイル\Scenes</Filter>
-    </ClCompile>
-    <ClCompile Include="src\cpp\Result.cpp">
-      <Filter>ソース ファイル\Scenes</Filter>
-    </ClCompile>
-    <ClCompile Include="src\cpp\Scene.cpp">
-      <Filter>ソース ファイル\Scenes</Filter>
-    </ClCompile>
-    <ClCompile Include="src\cpp\Title.cpp">
-      <Filter>ソース ファイル\Scenes</Filter>
-    </ClCompile>
-    <ClCompile Include="src\cpp\Tutorial.cpp">
-      <Filter>ソース ファイル\Scenes</Filter>
-    </ClCompile>
-    <ClCompile Include="src\cpp\Object.cpp">
+    <ClCompile Include="src\Object.cpp">
       <Filter>ソース ファイル\Objects</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\Object2D.cpp">
+    <ClCompile Include="src\Object2D.cpp">
       <Filter>ソース ファイル\Objects</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\Object3D.cpp">
+    <ClCompile Include="src\Object3D.cpp">
       <Filter>ソース ファイル\Objects</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\ObjectBillboard.cpp">
+    <ClCompile Include="src\ObjectBillboard.cpp">
       <Filter>ソース ファイル\Objects</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\ObjectX.cpp">
+    <ClCompile Include="src\ObjectX.cpp">
       <Filter>ソース ファイル\Objects</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\Camera.cpp">
+    <ClCompile Include="src\Game.cpp">
+      <Filter>ソース ファイル\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Result.cpp">
+      <Filter>ソース ファイル\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene.cpp">
+      <Filter>ソース ファイル\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Title.cpp">
+      <Filter>ソース ファイル\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tutorial.cpp">
+      <Filter>ソース ファイル\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera.cpp">
       <Filter>ソース ファイル\Systems</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\DebugProc.cpp">
+    <ClCompile Include="src\Fade.cpp">
       <Filter>ソース ファイル\Systems</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\DebugProc3D.cpp">
+    <ClCompile Include="src\FileDialogUtils.cpp">
       <Filter>ソース ファイル\Systems</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\Input.cpp">
+    <ClCompile Include="src\Light.cpp">
       <Filter>ソース ファイル\Systems</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\Main.cpp">
+    <ClCompile Include="src\Main.cpp">
       <Filter>ソース ファイル\Systems</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\Manager.cpp">
+    <ClCompile Include="src\Manager.cpp">
       <Filter>ソース ファイル\Systems</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\Sound.cpp">
+    <ClCompile Include="src\pch.cpp">
       <Filter>ソース ファイル\Systems</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\Renderer.cpp">
+    <ClCompile Include="src\Sound.cpp">
       <Filter>ソース ファイル\Systems</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\pch.cpp">
+    <ClCompile Include="src\Renderer.cpp">
       <Filter>ソース ファイル\Systems</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\RayCast.cpp">
-      <Filter>ソース ファイル\Systems</Filter>
+    <ClCompile Include="src\Player.cpp">
+      <Filter>ソース ファイル\Character</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\FileDialogUtils.cpp">
-      <Filter>ソース ファイル\Systems</Filter>
-    </ClCompile>
-    <ClCompile Include="src\cpp\Guage.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="src\cpp\GuiInfo.cpp">
-      <Filter>ソース ファイル\Systems</Filter>
-    </ClCompile>
-    <ClCompile Include="src\cpp\Item.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="src\cpp\Number.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\PlayerState.cpp">
+      <Filter>ソース ファイル\State</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -401,5 +225,190 @@
     <FxCompile Include="data\Shader\OutlineVS.hlsl" />
     <FxCompile Include="data\Shader\SkyCubePS.hlsl" />
     <FxCompile Include="data\Shader\SkyCubeVS.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\DebugProc.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DebugProc3D.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Guage.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GuiInfo.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Item.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ItemSelect.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Model.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Motion.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Number.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Pause.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PauseManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Player.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RayCast.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Renderer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SkyCube.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SpecBase.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SpecPlayer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StencilShadow.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Texture.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Timer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Ui.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Block.h">
+      <Filter>ヘッダー ファイル\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BlockList.h">
+      <Filter>ヘッダー ファイル\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BlockManager.h">
+      <Filter>ヘッダー ファイル\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Character.h">
+      <Filter>ヘッダー ファイル\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CharacterManager.h">
+      <Filter>ヘッダー ファイル\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Easing.h">
+      <Filter>ヘッダー ファイル\Easing</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imconfig.h">
+      <Filter>ヘッダー ファイル\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui.h">
+      <Filter>ヘッダー ファイル\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui_impl_dx9.h">
+      <Filter>ヘッダー ファイル\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui_impl_win32.h">
+      <Filter>ヘッダー ファイル\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui_internal.h">
+      <Filter>ヘッダー ファイル\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imguimaneger.h">
+      <Filter>ヘッダー ファイル\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imstb_rectpack.h">
+      <Filter>ヘッダー ファイル\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imstb_textedit.h">
+      <Filter>ヘッダー ファイル\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imstb_truetype.h">
+      <Filter>ヘッダー ファイル\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Object.h">
+      <Filter>ヘッダー ファイル\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Object2D.h">
+      <Filter>ヘッダー ファイル\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Object3D.h">
+      <Filter>ヘッダー ファイル\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ObjectBillboard.h">
+      <Filter>ヘッダー ファイル\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ObjectX.h">
+      <Filter>ヘッダー ファイル\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game.h">
+      <Filter>ヘッダー ファイル\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Result.h">
+      <Filter>ヘッダー ファイル\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scene.h">
+      <Filter>ヘッダー ファイル\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Title.h">
+      <Filter>ヘッダー ファイル\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tutorial.h">
+      <Filter>ヘッダー ファイル\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Camera.h">
+      <Filter>ヘッダー ファイル\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Fade.h">
+      <Filter>ヘッダー ファイル\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Input.h">
+      <Filter>ヘッダー ファイル\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Main.h">
+      <Filter>ヘッダー ファイル\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Light.h">
+      <Filter>ヘッダー ファイル\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Manager.h">
+      <Filter>ヘッダー ファイル\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pch.h">
+      <Filter>ヘッダー ファイル\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Parameter.h">
+      <Filter>ヘッダー ファイル\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MathConst.h">
+      <Filter>ヘッダー ファイル\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FileDialogUtils.h">
+      <Filter>ヘッダー ファイル\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Number.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sound.h">
+      <Filter>ヘッダー ファイル\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PlayerState.h">
+      <Filter>ヘッダー ファイル\State</Filter>
+    </ClInclude>
+    <ClInclude Include="include\State.h">
+      <Filter>ヘッダー ファイル\State</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

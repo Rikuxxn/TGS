@@ -10,7 +10,7 @@
 //*****************************************************************************
 // ビルド時の警告対処用マクロ
 //*****************************************************************************
-#define DIRECTINPUT_VERSION (0x0800)							
+#define DIRECTINPUT_VERSION (0x0800)
 
 #define NOMINMAX       // windows.h の前に入れる
 
@@ -49,7 +49,7 @@
 // マクロ定義
 //*****************************************************************************
 #define CLASS_NAME	  "WindowClass"								// ウィンドウクラスの名前
-#define WINDOW_NAME	  "NINJAFT Steal & Vanish"					// ウィンドウの名前(キャプションに表示)
+#define WINDOW_NAME	  "TGS_GAME"					// ウィンドウの名前(キャプションに表示)
 #define SCREEN_WIDTH  (1280)									// ウィンドウの幅
 #define SCREEN_HEIGHT (720)										// ウィンドウの高さ
 #define FVF_VERTEX_2D (D3DFVF_XYZRHW|D3DFVF_DIFFUSE|D3DFVF_TEX1)
